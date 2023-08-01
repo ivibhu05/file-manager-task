@@ -1,10 +1,8 @@
 import { useState } from "react";
 import { FaFile, FaFolder, FaFolderOpen } from "react-icons/fa";
 import Controls from "./Controls";
-
 import { useDirectoryContext } from "./context/DirectoryContext";
 import { addNodeChildren, updateNode, deleteNode } from "./state/actions";
-
 import { FILE_CONTROLS, FOLDER_CONTROLS, NODE_TYPES } from "../constants";
 
 export const computeConfigBasedOnType = (type, isOpen) => {

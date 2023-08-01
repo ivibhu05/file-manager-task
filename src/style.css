@@ -14,12 +14,12 @@
     background: #151515;
   }
   h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .directory {
-    width: 300px;
-    margin: 40px 0px 0px 40px;
-    border: 1px solid #979797;
+    width: 50%;
+    margin: 50px 0px 0px 50px;
+    border: 1px solid #f3eeee;
   }
   .directory .header {
     display: flex;
@@ -33,14 +33,14 @@
     cursor: pointer;
   }
   .title svg {
-    margin-right: 5px;
+    margin-right: 20px;
   }
   .title p {
     margin: 0;
     font-weight: bold;
   }
   .title p:hover {
-    color: #00a8ff;
+    color: #00a9fd;
   }
   .controls {
     display: flex;
